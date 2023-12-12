@@ -523,9 +523,14 @@ class DataModel(GridLayout):
                         if 'float' in data[index]['formatter']:
                             value = round(uniform(self.minval, self.maxval), 2)
                         else:
-                            value = randint(self.minval, self.maxval)
                             if 'uint' in data[index]['formatter']:
-                                value = data[index]['value'] + 1
+                                if index == '30001':
+                                    value = data[index]['value'] + 1
+                                elif index == '30002':
+                                    value = randint(218, 225)
+                                else:
+                                    value = data[index]['value'] + 1
+
                     else:
                         value = randint(self.minval, self.maxval)
 
