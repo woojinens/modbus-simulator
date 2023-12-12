@@ -525,7 +525,7 @@ class DataModel(GridLayout):
                         else:
                             value = randint(self.minval, self.maxval)
                             if 'uint' in data[index]['formatter']:
-                                value = abs(value)
+                                value = data[index]['value'] + 1
                     else:
                         value = randint(self.minval, self.maxval)
 
