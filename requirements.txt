@@ -10,3 +10,9 @@ pymodbus==2.1.0
 pyserial==3.2.1
 requests==2.12.4
 six==1.10.0
+kivy_deps.gstreamer==0.1.17
+docutils
+pygments
+pypiwin32
+kivy_deps.sdl2
+kivy_deps.glew

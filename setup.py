@@ -9,7 +9,7 @@ from modbus_simulator.version import __VERSION__
 
 
 def install_requires():
-    with open('requirements') as reqs:
+    with open('requirements.txt') as reqs:
         install_req = [
             line for line in reqs.read().split('\n')
         ]
