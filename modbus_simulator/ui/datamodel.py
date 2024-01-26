@@ -525,42 +525,32 @@ class DataModel(GridLayout):
                         elif 'uint' in data[index]['formatter']:
                             if index == '30001':
                                 value = data[index]['value'] + 1
-                            elif index == '30002':
-                                value = data[index]['value'] + 1
                             elif index == '30003':
-                                value = randint(218, 225)
-                            elif index == '30004':
-                                value = randint(218, 225)
+                                value = data[index]['value'] + 1
                             elif index == '30005':
                                 value = randint(218, 225)
                             elif index == '30006':
-                                value = randint(10, 30)
+                                value = randint(218, 225)
                             elif index == '30007':
-                                value = randint(10, 30)
+                                value = randint(218, 225)
                             elif index == '30008':
                                 value = randint(10, 30)
                             elif index == '30009':
-                                value = randint(90, 200)
+                                value = randint(10, 30)
                             elif index == '30010':
-                                value = randint(90, 200)
+                                value = randint(10, 30)
                             elif index == '30011':
                                 value = randint(90, 200)
                             elif index == '30012':
-                                value = randint(0, 40)
+                                value = randint(90, 200)
                             elif index == '30013':
-                                value = randint(25, 40)
+                                value = randint(90, 200)
                             elif index == '30014':
-                                value = randint(25, 40)
-                            elif index == '30015':
-                                value = randint(0, 20)
+                                value = randint(0, 40)
                             elif index == '30016':
-                                value = randint(0, 20)
-                            elif index == '30017':
-                                value = randint(0, 20)
+                                value = randint(25, 40)
                             elif index == '30018':
-                                value = randint(0, 20)
-                            elif index == '30019':
-                                value = randint(0, 20)
+                                value = randint(25, 40)
                             elif index == '30020':
                                 value = randint(0, 20)
                             elif index == '30021':
@@ -568,16 +558,26 @@ class DataModel(GridLayout):
                             elif index == '30022':
                                 value = randint(0, 20)
                             elif index == '30023':
-                                value = data[index]['value'] + 1
+                                value = randint(0, 20)
                             elif index == '30024':
-                                value = data[index]['value'] + 1
+                                value = randint(0, 20)
                             elif index == '30025':
-                                value = data[index]['value'] + 1
+                                value = randint(0, 20)
                             elif index == '30026':
-                                value = data[index]['value'] + 1
+                                value = randint(0, 20)
                             elif index == '30027':
-                                value = data[index]['value'] + 1
+                                value = randint(0, 20)
                             elif index == '30028':
+                                value = data[index]['value'] + 1
+                            elif index == '30029':
+                                value = data[index]['value'] + 1
+                            elif index == '30031':
+                                value = data[index]['value'] + 1
+                            elif index == '30033':
+                                value = data[index]['value'] + 1
+                            elif index == '30035':
+                                value = data[index]['value'] + 1
+                            elif index == '30037':
                                 value = data[index]['value'] + 1
                             else:
                                 value = data[index]['value'] + 1
